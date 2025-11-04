@@ -76,9 +76,9 @@ const QrCodeGenerator = () => {
           </div>
         )}
       </div>
-
+ 
       <p className="mt-6 text-gray-500 text-sm text-center">
-        Designed with ❤️ using React & TailwindCSS
+        Designed By ❤️ ABHI...
       </p>
     </div>
   )

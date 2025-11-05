@@ -3,11 +3,11 @@ import QRCode from 'react-qr-code'
 import { IoMdDownload } from "react-icons/io";
 
 const QrCodeGenerator = () => {
-  const [userInput, setUserInput] = useState('')
+  const [userInput, setUserInput] = useState('Abhi')
   const [showQR, setShowQR] = useState('')
 
   const handleGenerate = () => {
-    if (!userInput.trim()) return
+    // if (!userInput.trim()) return
     setShowQR(userInput)
     setUserInput('')
   }
